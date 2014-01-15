@@ -1,0 +1,8 @@
+instreamset:url:manyservers.htm
+intitle:"Index of" AT-admin.cgi
+intitle:"Index of" global.inc
+intitle:"Index of" upload.asp
+intitle:"osCommerce" instreamset:url:admin ext:php
+intitle:"Remote Desktop Web Connection"
+intitle:"Terminal Services Web Connection"
+intitle:admin intitle:login

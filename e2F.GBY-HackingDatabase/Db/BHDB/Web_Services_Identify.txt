@@ -1,0 +1,2 @@
+ext:asmx
+ext:wsdl

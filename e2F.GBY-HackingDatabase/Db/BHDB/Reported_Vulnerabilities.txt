@@ -1,0 +1,8 @@
+"phpMyAdmin" "running on" instreamset:url:"main.php"
+"Powered by mnoGoSearch - free web search engine software"
+"Select a database to view" intitle:"filemaker pro"
+instreamset:url:Custva.asp 
+instreamset:url:footer.inc.php
+instreamset:url:info.inc.php
+instreamset:url:search.php vbulletin
+intitle:"osCommerce" instreamset:url:admin ext:php

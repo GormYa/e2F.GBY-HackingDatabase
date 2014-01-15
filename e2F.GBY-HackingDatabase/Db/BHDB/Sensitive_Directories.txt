@@ -1,0 +1,60 @@
+"Directory Listing for" "Hosted by Xerver"
+"Index of /backup"
+"Index Of /network" "last modified"
+"index of cgi-bin"
+"index of" / picasa.ini
+"index of" instreamset:url:recycler
+"Index of" rar r01 nfo Modified 2004
+"intitle:Index.Of /" stats merchant cgi-* etc
+"Powered by Invision Power File Manager" (instreamset:url:login.php) | (intitle:"Browsing directory /" )
+"Warning: Installation directory exists at" "Powered by Zen Cart" -demo
+"Web File Browser" "Use regular expression"
+"Welcome to phpMyAdmin" " Create new database"
+"Welcome to the directory listing of" "NetworkActiv-Web-Server"
+ext:cfg ks inbody:rootpw -sample -test  -howto
+ext:ini Desktop.iniinbody:mydocs.dll
+ext:torrent torrent
+inbody:"d.aspx?id" || instreamset:url:"d.aspx?id"
+inbody:"Powered By: TotalIndex" intitle:"TotalIndex"
+index.of.dcim
+index.of.password
+index.of.private
+index.of.protected
+index.of.secret
+index.of.secure
+index.of.winnt
+instreamset:url:"/*/_vti_pvt/" | instreamset:url:"/*/_vti_cnf/"
+instreamset:url:/pls/sample/admin_/help/
+instreamset:url:/tmp
+instreamset:url:backup intitle:index.of instreamset:url:admin
+instreamset:url:explorer.cfm instreamset:url:(dirpath|This_Directory)
+instreamset:url:install.pl inbody:"Reading path paramaters" -edu
+instreamset:url:j2ee/examples/jsp
+instreamset:url:ojspdemos
+intitle:"album permissions" "Users who can modify photos" "EVERYBODY"
+intitle:"Backup-Management (phpMyBackup v.0.4 beta * )" -johnny.ihackstuff
+intitle:"Directory Listing For" inbody:Tomcat -int
+intitle:"FirstClass Login"
+intitle:"Folder Listing" "Folder Listing" Name Size Date/Time File Folder
+intitle:"HFS /" +"HttpFileServer"
+intitle:"Index of *" instreamset:url:"my shared folder" size modified
+intitle:"Index of /CFIDE/" administrator
+intitle:"index of /phpmyadmin" modified
+intitle:"Index of c:\Windows"
+intitle:"index of" -instreamset:url:htm -instreamset:url:html mp3
+intitle:"index of" "parent directory" "desktop.ini" site:dyndns.org
+intitle:"Index of" cfide
+intitle:"index of" inbody:"content.ie5"
+intitle:"index of" instreamset:url:ftp (pub | incoming)
+intitle:"index.of.personal"
+intitle:"pictures thumbnails" site:pictures.sprintpcs.com
+intitle:"webadmin - /*" ext:php directory filename permission
+intitle:index.of (instreamset:url:fileadmin | intitle:fileadmin)
+intitle:index.of /AlbumArt_
+intitle:index.of /maildir/new/
+intitle:index.of abyss.conf
+intitle:index.of WEB-INF
+intitle:index.of.config
+intitle:intranet instreamset:url:intranet +inbody:"human resources"
+intitle:upload instreamset:url:upload inbody:upload -forum -shop -support -w3c
+log instreamset:url:linklint ext:txt -"checking"

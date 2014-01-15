@@ -1,0 +1,16 @@
+﻿* Açılış süresi çok uzundu, açılış süresi kısaltıldı
+- Açılış ekranı kaldırıldı
+* Thread çakışmaları giderildi
+* 2 saldırı vektörü seçip, 1'ini kaldırınca tüm vektör listesi temizleniyordu, hata giderildi
+* Ram optimizasyonu yapılmıştır
+* Tüm dosyaya yazım işlemleri hızlandırıldı
+
+
+
+
+
+
+
+*: Hata giderildi
+-: Özellik kaldırıldı
++: Özellik eklendi

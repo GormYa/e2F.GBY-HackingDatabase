@@ -1,0 +1,2 @@
+ext:sql jos_users
+ext:sql jos_users md5(

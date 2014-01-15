@@ -1,0 +1,55 @@
+"create the Super User" "now by clicking here"
+"e107.org 2002/2003" instreamset:url:forum_post.php?nt
+"File Upload Manager v1.3" "rename to"
+"Mail-it Now!" intitle:"Contact form" | instreamset:url:contact.php
+"maxwebportal" instreamset:url:"default" "snitz forums" +"homepage" -intitle:maxwebportal
+"Powered by FlexPHPNews" instreamset:url:news | instreamset:url:press
+"Powered by FunkBoard"
+"Powered by Gravity Board"
+"Powered by Land Down Under 601"
+"powered by mailgust"
+"powered by my little forum"
+"Powered by SilverNews"
+"Powered by Xcomic"
+"powered by YellDL"
+"Powered By: Simplicity oF Upload" instreamset:url:download.php | instreamset:url:upload.php
+"Warning:" "Cannot execute a blank command in"
+ext:asp "powered by DUForum" instreamset:url:(messages|details|login|default|register) -site:duware.com
+ext:asp instreamset:url:DUgallery intitle:"3.0" -site:dugall
+ext:cgi instreamset:url:cachemgr.cgi
+ext:cgi instreamset:url:ubb6_test.cgi
+ext:cnf my.cnf -cvs -example
+ext:inc inc inbody:setcookie
+ext:lit lit (books|ebooks)
+ext:mdb "standard jet" (password | username | user | pass)
+ext:mdb instreamset:url:"news/news"
+ext:php instreamset:url:"viewfile" -"index.php" -"idfil
+ext:pl -inbody:"/usr/bin/perl" instreamset:url:webcal (instreamset:url:webcal | instreamset:url:add | instreamset:url:delete | instreamset:url:config)
+ext:wsdl wsdl
+ezBOO "Administrator Panel" -cvs
+instreamset:url:" WWWADMIN.PL" intitle:"wwwadmin"
+instreamset:url:"nph-proxy.cgi" "Start browsing through this CGI-based proxy"
+instreamset:url:"plog/register.php"
+instreamset:url:"simplenews/admin"
+instreamset:url:cartwiz/store/index.asp
+instreamset:url:cgi-bin instreamset:url:bigate.cgi
+instreamset:url:cgi.asx?StoreID
+instreamset:url:changepassword.cgi -cvs
+instreamset:url:click.php inbody:PHPClickLog
+instreamset:url:guestbook/guestbooklist.asp "Post Date" From
+instreamset:url:nquser.php ext:php
+instreamset:url:php.exe ext:exe -example.com
+instreamset:url:robpoll.cgi ext:cgi
+instreamset:url:updown.php | inbody:"Powered by PHP Uploader Downloader"
+intitle:"ASP FileMan" Resend -site:iisworks.com
+intitle:"CJ Link Out V1"
+intitle:"Control panel" "Control Panel Login" ArticleLive instreamset:url:admin -demo
+intitle:"Directory Listing" "tree view"
+intitle:"Index of /" modified php.exe
+intitle:"PHP Explorer" ext:php (instreamset:url:phpexplorer.php |  instreamset:url:list.php | instreamset:url:browse.php)
+intitle:"phpremoteview" ext:php "Name, Size,
+intitle:"PHPstat" inbody:"Browser" inbody:"PHPstat setup"
+intitle:"SSHVnc Applet"OR intitle:"SSHTerm Applet"
+intitle:gallery instreamset:url:setup "Gallery configuration"
+intitle:mywebftp "Please enter your password"
+PHPFreeNews instreamset:url:Admin.php

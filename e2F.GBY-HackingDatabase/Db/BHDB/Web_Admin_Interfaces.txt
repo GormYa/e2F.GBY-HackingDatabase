@@ -1,0 +1,8 @@
+inbody:"Password" inbody:"Copyright" inbody:"D-Link Corporation, Inc" -site:dlink.com inbody:"Product Page"
+instreamset:url:jmx-console/HtmlAdaptor deploymentfilerepository
+instreamset:url:web-console" inbody:"JBoss Application Server" inbody:JVM
+instreamset:url:web-console/ServerInfo.jsp" inbody:"JBoss Application Server" inbody:JVM
+intitle:"D-LINK CORPORATION, INC" intitle:"WIRELESS ROUTER" -site:dlink.com
+intitle:"D-Link" intitle:"router" inbody:"Product Page" intitle:login -site:dlink.com
+intitle:"JBossWS" inbody:"Administration" inbody:"Access JMX console"
+intitle:"Tomcat Status" inbody:"Free memory" inbody:jboss

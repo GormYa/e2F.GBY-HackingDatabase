@@ -1,0 +1,15 @@
+"index of" / lck
++inbody:"webalizer" +inbody:"Total Usernames" +inbody:"Usage Statistics for"
+ext:conf instreamset:url:proftpd.conf -sample
+ext:log username putty
+ext:reg reg +inbody:"internet account manager"
+ext:reg reg HKEY_CURRENT_USER username
+inbody:"SteamUserPassphrase=" inbody:"SteamAppUser=" -"username" -"user"
+index.of perform.ini
+instreamset:url:admin ext:asp instreamset:url:userlist
+instreamset:url:admin instreamset:url:userlist
+instreamset:url:php instreamset:url:hlstats inbody:"Server Username"
+instreamset:url:root.asp?acs=anon
+intitle:index.of .bash_history
+intitle:index.of .sh_history
+site:extremetracking.com instreamset:url:"login="

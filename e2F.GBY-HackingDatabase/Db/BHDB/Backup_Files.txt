@@ -1,0 +1,10 @@
+"Index of /backup"
+instreamset:url:backup intitle:index.of instreamset:url:admin
+intitle:"Index of" ".htpasswd" htpasswd.bak
+intitle:"Index of" index.html.bak
+intitle:"Index of" index.html~
+intitle:"Index of" index.jsp.bak
+intitle:"Index of" index.php.bak
+intitle:"Index of" index.php~
+intitle:index.of .bash_history
+intitle:index.of .sh_history

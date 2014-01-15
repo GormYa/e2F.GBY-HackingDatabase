@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FEE13A04-6513-432A-BA85-03496135A201}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>e2F_GHDB_GUI</RootNamespace>
+    <AssemblyName>e2F GHDB GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>GoogleHackingDB.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\Libs\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAbout.Designer.cs">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProxy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProxy.Designer.cs">
+      <DependentUpon>FrmProxy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAbout.resx">
+      <DependentUpon>FrmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProxy.resx">
+      <DependentUpon>FrmProxy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Changelog.txt" />
+    <Content Include="Db\BHDB\Advisories_and_Vulnerabilities.txt" />
+    <Content Include="Db\BHDB\Backup_Files.txt" />
+    <Content Include="Db\BHDB\Bing_Contains_Directory_Listings.txt" />
+    <Content Include="Db\BHDB\CMS_Config_Files.txt" />
+    <Content Include="Db\BHDB\Configuration_Management.txt" />
+    <Content Include="Db\BHDB\Custom.txt" />
+    <Content Include="Db\BHDB\Directory_Listing.txt" />
+    <Content Include="Db\BHDB\Error_Messages.txt" />
+    <Content Include="Db\BHDB\Files_Containing_Juicy_Info.txt" />
+    <Content Include="Db\BHDB\Files_Containing_Passwords.txt" />
+    <Content Include="Db\BHDB\Files_Containing_Usernames.txt" />
+    <Content Include="Db\BHDB\Footholds.txt" />
+    <Content Include="Db\BHDB\HTTP_Web_Admin_Ports_Search.txt" />
+    <Content Include="Db\BHDB\Info_Disclosure.txt" />
+    <Content Include="Db\BHDB\Joomla_Backups_and_MD5_Passwds.txt" />
+    <Content Include="Db\BHDB\Misc.txt" />
+    <Content Include="Db\BHDB\Outlook_Web_Access_OWA.txt" />
+    <Content Include="Db\BHDB\Pages_Containing_Login_Portals.txt" />
+    <Content Include="Db\BHDB\Pages_Containing_Network_or_Vulnerability_Data.txt" />
+    <Content Include="Db\BHDB\Passwords_in_Different_Languages.txt" />
+    <Content Include="Db\BHDB\Privacy_Related.txt" />
+    <Content Include="Db\BHDB\Remote_Administration.txt" />
+    <Content Include="Db\BHDB\Reported_Vulnerabilities.txt" />
+    <Content Include="Db\BHDB\Sensitive_Directories.txt" />
+    <Content Include="Db\BHDB\Sensitive_Info_Disclosure.txt" />
+    <Content Include="Db\BHDB\Sensitive_Online_Shopping_Info.txt" />
+    <Content Include="Db\BHDB\Technology_Profile.txt" />
+    <Content Include="Db\BHDB\Usernames_in_Metadata.txt" />
+    <Content Include="Db\BHDB\Various_Online_Devices.txt" />
+    <Content Include="Db\BHDB\Vulnerable_Files.txt" />
+    <Content Include="Db\BHDB\Vulnerable_Servers.txt" />
+    <Content Include="Db\BHDB\Web_Admin_Interfaces.txt" />
+    <Content Include="Db\BHDB\Web_Server_Detection.txt" />
+    <Content Include="Db\BHDB\Web_Services_Identify.txt" />
+    <Content Include="Db\GHDB\Error_Message.txt" />
+    <Content Include="Db\GHDB\Files_Containing_Juicy_info.txt" />
+    <Content Include="Db\GHDB\Files_Containing_Passwords.txt" />
+    <Content Include="Db\GHDB\Files_Containing_Usernames.txt" />
+    <Content Include="Db\GHDB\Footholds.txt" />
+    <Content Include="Db\GHDB\Misc.txt" />
+    <Content Include="Db\GHDB\Pages_Containing_Network_or_Vulnerability_Data.txt" />
+    <Content Include="Db\GHDB\Pages_Containing_Pogin_Portals.txt" />
+    <Content Include="Db\GHDB\Sensitive_Directories.txt" />
+    <Content Include="Db\GHDB\Sensitive_Online_Shopping_Info.txt" />
+    <Content Include="Db\GHDB\Various_Online_Devices.txt" />
+    <Content Include="Db\GHDB\Vulnerable.txt" />
+    <Content Include="Db\GHDB\Vulnerable_Files.txt" />
+    <Content Include="Db\GHDB\Vulnerable_Servers.txt" />
+    <Content Include="Db\GHDB\Web_Server_Detection.txt" />
+    <Content Include="Db\YHDB\Database_Backup_File.txt" />
+    <Content Include="Db\YHDB\PassKeywords.txt" />
+    <Content Include="GoogleHackingDB.ico" />
+    <None Include="Resources\search.gif" />
+    <None Include="Resources\ghdbX.png" />
+    <None Include="Resources\ghdb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
+    <Folder Include="Db\ProxyFile\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy "$(ProjectDir)Db\*" "$(TargetDir)" /E /I /F /Y</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

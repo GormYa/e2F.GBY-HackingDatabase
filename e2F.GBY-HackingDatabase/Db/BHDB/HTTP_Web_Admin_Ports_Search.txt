@@ -1,0 +1,19 @@
+BHDBv2NEW;;Error Log Info Disclosure;;instreamset:url:elmah.axd aspxauth
+site:/com:444/
+site:/com:8000/
+site:/com:8000/ instreamset:url:"admin"
+site:/com:8080/
+site:/com:8080/ instreamset:url:"admin"
+site:/com:8081/
+site:/com:8443/
+site:/com:88/
+site:/com:9000/
+site:/edu:8000/
+site:/edu:8443/
+site:/gov:8000/
+site:/gov:8080/
+site:/gov:8443/
+site:/net:8000/
+site:/net:8080/
+site:/net:8443/
+site:/org:8000/
