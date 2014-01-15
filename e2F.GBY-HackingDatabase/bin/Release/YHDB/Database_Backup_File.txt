@@ -1,0 +1,15 @@
+ext:sql
+ext:accdb
+ext:mdb
+ext:db
+ext:bak
+ext:backup
+ext:back
+ext:copy
+ext:old
+ext:junk
+ext:log
+ext:logs
+ext:config
+ext:reg
+ext:xml

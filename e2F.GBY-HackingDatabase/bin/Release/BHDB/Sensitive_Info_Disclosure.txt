@@ -1,0 +1,4 @@
+ext:txt "Data Source" "Initial Catalog" udl
+ext:txt "password.log"
+ext:txt "tnsnames.ora" ADDRESS_LIST =
+ext:txt jar manifest loader.class

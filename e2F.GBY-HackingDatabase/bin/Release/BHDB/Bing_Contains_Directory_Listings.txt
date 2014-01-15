@@ -1,0 +1,18 @@
+contains:accdb "index of"
+contains:bak "index of"
+contains:bash "index of"
+contains:bash_history "index of"
+contains:bash_profile "index of"
+contains:config "index of"
+contains:config "Size" "Last Modified"
+contains:exe site:mil ext:doc
+contains:ini "index of"
+contains:ini "Size" "Last Modified"
+contains:listing "index of"
+contains:log "Directory listing" "Last Modified"
+contains:log "Size" "Last Modified"
+contains:log WS_FTP.log
+contains:sh "index of"
+contains:sql "index of"
+contains:sql "Size" "Last Modified"
+contains:tmp "index of"

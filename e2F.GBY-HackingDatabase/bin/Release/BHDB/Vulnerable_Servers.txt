@@ -1,0 +1,46 @@
+"ftp://" "www.eastgame.net"
+"html allowed" guestbook
+"Powered by: vBulletin Version 1.1.5"
+"Select a database to view" intitle:"filemaker pro"
+"set up the administrator user" instreamset:url:pivot
+"There are no Administrators Accounts" instreamset:url:admin.php -mysql_fetch_row
+"Welcome to Administration" "General" "Local Domains" "SMTP Authentication" instreamset:url:admin
+"Welcome to Intranet"
+"Welcome to PHP-Nuke" congratulations
+"Welcome to the Prestige Web-Based Configurator"
+"YaBB SE Dev Team"
+"you can now password" | "this is a special page only seen by you. your profile visitors"  instreamset:url:imchaos
+("Indexed.By"|"Monitored.By") hAcxFtpScan
+(instreamset:url:/shop.cgi/page=) | (instreamset:url:/shop.pl/page=)
+ext:cgi instreamset:url:"fileman.cgi"
+ext:cgi instreamset:url:"Web_Store.cgi"
+ext:php instreamset:url:vAuthenticate
+ext:pl intitle:"Ultraboard Setup"
+inbody:"Warning: * am able * write ** configuration file" "includes/configure.php" -Forums
+instreamset:url:"/NSearch/AdminServlet"
+instreamset:url:"index.php" "site=sglinks"
+instreamset:url:"index.php?module=ew_filemanager"
+instreamset:url:aol*/_do/rss_popup?blogID=
+instreamset:url:footer.inc.php
+instreamset:url:info.inc.php
+instreamset:url:install/install.php
+instreamset:url:intranet admin
+instreamset:url:ManyServers.htm
+instreamset:url:newsdesk.cgi? instreamset:url:"t="
+instreamset:url:pls/admin_/gateway.htm
+instreamset:url:rpSys.html
+instreamset:url:search.php vbulletin
+instreamset:url:servlet/webacc
+instreamset:url:shop "Hassan Consulting's Shopping Cart Version 1.18"
+intitle:"Gallery in Configuration mode"
+intitle:"Gateway Configuration Menu"
+intitle:"Horde :: My Portal" -"[Tickets"
+intitle:"Mail Server CMailServer Webmail" "5.2"
+intitle:"MvBlog powered"
+intitle:"Remote Desktop Web Connection"
+intitle:"Samba Web Administration Tool" inbody:"Help Workgroup"
+intitle:"Terminal Services Web Connection"
+intitle:"Uploader - Uploader v6" -pixloads.com
+intitle:phpMyAdmin "Welcome to phpMyAdmin ***" "running on * as root@*"
+natterchat instreamset:url:home.asp -site:natterchat.co.uk
+XOOPS Custom Installation

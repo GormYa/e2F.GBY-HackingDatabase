@@ -1,0 +1,6 @@
+Passwords;;PassKeywords;password
+(pass | password | passwd | credentials | login)
+intext:12345 intext:password intext:admin123 intext:"gmail.com" intext:"yahoo.com"
+(intext:12345 | intext:qwerty | intext:admin123) intext:"gmail.com" intext:"yahoo.com"
+intext:12345 intext:welcome intext:ninja intext:"gmail.com" intext:"yahoo.com"
+(intext:12345 | intext:qwerty | intext:admin123) intext:"gmail.com" intext:"yahoo.com"

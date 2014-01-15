@@ -1,0 +1,34 @@
+"powered by openbsd" +"powered by apache"
+"Welcome to phpMyAdmin" AND " Create new database"
+aboutprinter.shtml
+ext:htpasswd htpasswd
+ext:xls username password email
+instreamset:url:auth_user_file.txt
+instreamset:url:config.php dbuname dbpass
+instreamset:url:install/install.php
+instreamset:url:passlist.txt
+instreamset:url:tech-support instreamset:url:show Cisco
+intitle:"Apache HTTP Server" intitle:"documentation"
+intitle:"Index of c:\Windows"
+intitle:"Index of" ".htpasswd" "htgroup"  -intitle:"dist" -apache -htpasswd.c
+intitle:"Index of" .bash_history
+intitle:"Index of" .mysql_history
+intitle:"Index of" .sh_history
+intitle:"Index of" fpcount.exe
+intitle:"Index of" guestbook.cgi
+intitle:"Index of" master.passwd
+intitle:"Index of" msadcs.dll
+intitle:"Index of" passwd passwd.bak
+intitle:"Index of" spwd.db passwd -pam.conf
+intitle:"Index of..etc" passwd
+intitle:"index.of" config.php"
+intitle:"Netscape FastTrack Server Home Page"
+intitle:"Test Page for Apache" "It Worked!"
+intitle:"Welcome to IIS 4.0"
+intitle:index.of administrators.pwd
+intitle:Index.of etc shadow
+intitle:index.of passlist
+intitle:index.of secring.pgp
+intitle:index.of trillian.ini
+intitle:index.of.etc
+intitle:index.of.winnt
