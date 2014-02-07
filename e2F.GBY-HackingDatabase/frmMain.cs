@@ -1027,10 +1027,13 @@ namespace e2F_GHDB_GUI
         {
             Application.Exit();
         }
-        private void menuAboutAbout_Click(object sender, EventArgs e)
+
+        private void menuAbout_Click(object sender, EventArgs e)
         {
-            FrmAbout about = new FrmAbout();
-            about.ShowDialog();
+            using (FrmAbout about = new FrmAbout())
+            {
+                about.ShowDialog();
+            }
         }
     }
 }

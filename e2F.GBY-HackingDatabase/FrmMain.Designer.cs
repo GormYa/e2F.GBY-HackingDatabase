@@ -162,7 +162,6 @@
             this.menuSettings = new System.Windows.Forms.ToolStripMenuItem();
             this.menuSettingsProxyServer = new System.Windows.Forms.ToolStripMenuItem();
             this.menuAbout = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuAboutAbout = new System.Windows.Forms.ToolStripMenuItem();
             this.chkTemizle = new System.Windows.Forms.CheckBox();
             this.lblSecilenNode = new System.Windows.Forms.Label();
             this.chkBypass = new System.Windows.Forms.CheckBox();
@@ -576,18 +575,10 @@
             // 
             // menuAbout
             // 
-            this.menuAbout.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.menuAboutAbout});
             this.menuAbout.Name = "menuAbout";
             this.menuAbout.Size = new System.Drawing.Size(69, 20);
             this.menuAbout.Text = "Hakkında";
-            // 
-            // menuAboutAbout
-            // 
-            this.menuAboutAbout.Name = "menuAboutAbout";
-            this.menuAboutAbout.Size = new System.Drawing.Size(124, 22);
-            this.menuAboutAbout.Text = "Hakkında";
-            this.menuAboutAbout.Click += new System.EventHandler(this.menuAboutAbout_Click);
+            this.menuAbout.Click += new System.EventHandler(this.menuAbout_Click);
             // 
             // chkTemizle
             // 
@@ -689,7 +680,6 @@
         private System.Windows.Forms.ToolStripMenuItem menuSettings;
         private System.Windows.Forms.ToolStripMenuItem menuSettingsProxyServer;
         private System.Windows.Forms.ToolStripMenuItem menuAbout;
-        private System.Windows.Forms.ToolStripMenuItem menuAboutAbout;
         private System.Windows.Forms.CheckBox chkBypass;
         private System.Windows.Forms.ComboBox cmbSearchEngine;
         private System.Windows.Forms.Label label1;

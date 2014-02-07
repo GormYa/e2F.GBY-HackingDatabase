@@ -118,17 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="lblHakkindaDetay.Text" xml:space="preserve">
-    <value>Bu program Google / Bing / Yandex arama motorlarının zayıflıklarını kullanmak üzere derlenmiş
-olup, referans olarak Offensive-Security GHDB Dork'ları baz alınmıştır.
+    <value>Bu program arama motorlarının zayıflıklarını kullanmak üzere derlenmiş olup, referans olarak Offensive-Security GHDB Dork'ları baz alınmıştır.
 
-Lütfen bulmuş olduğunuz veya tespit etmiş olduğunuz hataları/bugları bir sonraki versiyonda 
-düzeltilmesi için info@eyupcelik.com.tr adresine gönderiniz.
+Lütfen bulmuş olduğunuz veya tespit etmiş olduğunuz hataları-bugları bir sonraki versiyonda düzeltilmesi için Github üzerinden issue açınız:
+https://github.com/GormYa/e2F.GBY-HackingDatabase
 
-Program Yapımcısı:
-Eyüp ÇELİK
+Proje: Eyüp Çelik
 
-Beta testindeki katkılarından ve yardımlarından dolayı;
-Funda YILMAZ ÇELİK'e, Hamza ŞAMLIOĞLU (TEAKolik)'na, Emir CEM'e ve İsmail SAYGILI'ya
-teşekkür ederim.</value>
+Teşekkürler; Funda Çelik Yılmaz, Hamza Şamlıoğlu (TeaKolik), Emir Cem, İsmail Saygılı, Yalçın Görmez.
+
+Yazılımcılar;
+v1.0 - Eyüp Çelik
+v1.1 - Yalçın Görmez
+v1.2 - Yalçın Görmez</value>
   </data>
 </root>

@@ -34,30 +34,32 @@
             // 
             // lblHakkindaDetay
             // 
-            this.lblHakkindaDetay.AutoSize = true;
             this.lblHakkindaDetay.BackColor = System.Drawing.Color.Transparent;
+            this.lblHakkindaDetay.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblHakkindaDetay.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblHakkindaDetay.ForeColor = System.Drawing.Color.Black;
-            this.lblHakkindaDetay.Location = new System.Drawing.Point(12, 9);
+            this.lblHakkindaDetay.Location = new System.Drawing.Point(0, 0);
+            this.lblHakkindaDetay.Margin = new System.Windows.Forms.Padding(10);
             this.lblHakkindaDetay.Name = "lblHakkindaDetay";
-            this.lblHakkindaDetay.Size = new System.Drawing.Size(452, 156);
+            this.lblHakkindaDetay.Padding = new System.Windows.Forms.Padding(5);
+            this.lblHakkindaDetay.Size = new System.Drawing.Size(406, 258);
             this.lblHakkindaDetay.TabIndex = 31;
             this.lblHakkindaDetay.Text = resources.GetString("lblHakkindaDetay.Text");
             // 
-            // frmAbout
+            // FrmAbout
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(492, 174);
+            this.ClientSize = new System.Drawing.Size(406, 258);
             this.Controls.Add(this.lblHakkindaDetay);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "frmAbout";
+            this.Name = "FrmAbout";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hakkında";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
